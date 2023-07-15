@@ -1,0 +1,30 @@
+[
+  {
+    "key": "shift+alt+1",
+    "command": "leetcode.submitSolution"
+  },
+  {
+    "key": "shift+alt+2",
+    "command": "leetcode.testSolution"
+  },
+  {
+    "key": "shift+alt+q",
+    "command": "leetcode.showSolution"
+  },
+  // FILE TREE
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "deleteFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
+  }
+]
