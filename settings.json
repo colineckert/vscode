@@ -10,11 +10,11 @@
   "editor.linkedEditing": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.multiCursorModifier": "ctrlCmd",
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true,
   "workbench.preferredDarkColorTheme": "One Dark Pro",
   "workbench.editor.enablePreview": false,
-  "workbench.editor.showTabs": false,
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.showTabs": true,
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.colorTheme": "Night Owl",
   "emmet.includeLanguages": {
@@ -25,7 +25,7 @@
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
   },
-  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontFamily": "Dank Mono, Fira Code",
   "editor.tabSize": 2,
   "launch": {
     "version": "0.2.0",
@@ -115,7 +115,6 @@
       "before": ["leader", "p"],
       "commands": ["editor.action.formatDocument"]
     },
-    // NAVIGATION
     // markers
     {
       "before": ["<c-]>"],
@@ -125,6 +124,7 @@
       "before": ["<c-[>"],
       "commands": ["editor.action.marker.prev"]
     },
+    // NAVIGATION
     // splits
     { "before": ["leader", "v"], "commands": [":vsplit"] },
     { "before": ["leader", "s"], "commands": [":split"] },
